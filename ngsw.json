@@ -1,0 +1,54 @@
+{
+  "configVersion": 1,
+  "index": "https://gopizaigo.github.com/lmi-gh/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://gopizaigo.github.com/lmi-gh/favicon.ico",
+        "https://gopizaigo.github.com/lmi-gh/index.html",
+        "https://gopizaigo.github.com/lmi-gh/inline.318b50c57b4eba3d437b.bundle.js",
+        "https://gopizaigo.github.com/lmi-gh/main.29c3c2d69cab83f5ef1d.bundle.js",
+        "https://gopizaigo.github.com/lmi-gh/polyfills.50b851ccd19aa9b94ce1.bundle.js",
+        "https://gopizaigo.github.com/lmi-gh/styles.ac89bfdd6de82636b768.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://gopizaigo.github.com/lmi-gh/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://gopizaigo.github.com/lmi-gh/index.html": "3949219c023922d8e2170ab7b227b8705cb7898c",
+    "https://gopizaigo.github.com/lmi-gh/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "https://gopizaigo.github.com/lmi-gh/main.29c3c2d69cab83f5ef1d.bundle.js": "091e65c16b7ffab776072118a906a4471cc85866",
+    "https://gopizaigo.github.com/lmi-gh/polyfills.50b851ccd19aa9b94ce1.bundle.js": "106347cf1a53b1dceace39e0d83e6b93936bb95b",
+    "https://gopizaigo.github.com/lmi-gh/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
