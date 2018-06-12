@@ -1,0 +1,14 @@
+{
+  "name": "LMI GH Pages",
+  "short_name": "LMI GHP",
+  "description": "Test app to demonstrate how PWA works",  
+  "icons": [{
+    "src": "assets/icon-128.gif",
+      "sizes": "128x128",
+      "type": "image/gif"
+    }],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#673ab7"
+}
